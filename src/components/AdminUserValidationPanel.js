@@ -4,7 +4,7 @@ import { doc, getDoc } from 'firebase/firestore';
 import QRCode from 'react-qr-code';
 
 export const AdminUserValidationPanel = () => {
-  const expoURL = 'exp://149.157.117.167:19000';
+  const expoURL = 'exp://192.168.15.231:19000';
   const [canScan, setCanScan] = useState(false);
 
   useEffect(() => {
